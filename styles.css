@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 :root{
+    --bg: #0B1D26;
+    --bijela: #0B1D26;
+    --zlatna: #FBD784;
 
 }
 body{
-    background: #0B1D26;
+    background: var(--bg);
 }
