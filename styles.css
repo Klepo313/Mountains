@@ -7,7 +7,6 @@
     --bg: #0B1D26;
     --bijela: #0B1D26;
     --zlatna: #FBD784;
-
 }
 body{
     background: var(--bg);
