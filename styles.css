@@ -5,7 +5,7 @@
 }
 :root{
     --bg: #0B1D26;
-    --bijela: #0B1D26;
+    --bijela: white;
     --zlatna: #FBD784;
     --ChronicleDisplay: 'Chronicle Display', sans-serif;
     --Gilory: 'Gilroy', sans-serif;
@@ -14,11 +14,57 @@ body{
     background: var(--bg);
 }
 .imgs{
-    position: relative;
+    z-index: -6;
 }
 .G{
+    width: 100%;
     position: absolute;
 }
 .OG{
-    max-width: 100%;
+    width: 100%;
+}
+.HG{
+    width: 100%;
+}
+.MG{
+    top: 24.166666vw;
+}
+.LG{
+    top: 41.25vw;
+}
+.mnPage{
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+
+/*HEADER*/
+
+header, nav{
+    outline: 1px solid red;
+    width: 100%;
+    color: var(--bijela);
+}
+header{
+    height: 153px;
+}
+nav{
+    height: 100%;
+    display: flex;
+    margin: 0px 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    font-family: var(--Gilory);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--bijela);
+}
+.logoMNTN{
+    font-size: 24px;
+    font-family: var(--ChronicleDisplay);
 }
