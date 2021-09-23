@@ -93,9 +93,9 @@ li, .account{
 
 /*MAIN*/
 
-main{
+.content{
     outline: 1px solid blue;
-    margin-top: 6.979vw;
+    margin-top: 4.979vw;
     width: 100%;
 }
 .container{
@@ -162,4 +162,10 @@ h1{
     order: 1;
     flex-grow: 0;
     padding: 32px 0px;
+}
+
+@media only screen and (max-width: 1466px){
+    h1{
+        font-size: 50px;
+    }
 }
