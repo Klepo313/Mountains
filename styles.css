@@ -124,14 +124,45 @@ main{
     justify-content: space-between;
     align-items: center;
 }
-
-
+.mainView{
+    width: 950px;
+}
 .header{
     padding: 32px 0px;
 }
-.lineDiv, .hikingGuide{
-    vertical-align: middle;
+.subDiv{
+    font-family: var(--Gilory);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: var(--zlatna);
+
+    display: flex;
+    align-items: center;
 }
 .lineDiv{
-    
+    background-color: var(--zlatna);
+    width: 72px;
+    height: 2px;
+}
+.hikingGuide{
+    padding-left: 32px;
+}
+h1{
+    font-family: var(--ChronicleDisplay);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+
+    color: var(--bijela);
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
 }
