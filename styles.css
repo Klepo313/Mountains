@@ -85,6 +85,7 @@ nav{
     list-style: none;
 }
 .logoMNTN{
+    color: var(--bijela);
     font-size: 24px;
     font-family: var(--ChronicleDisplay);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -99,7 +100,6 @@ nav{
 /*MAIN*/
 
 .content{
-    outline: 1px solid blue;
     margin-top: 4.979vw;
     width: 100%;
 }
@@ -112,22 +112,26 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.media{
-    outline: 1px solid blue;
+.media, .scollDown{
     font-family: var(--Gilory);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 550;
+    letter-spacing: 1px;
     font-size: 18px;
     line-height: 22px;
     color: white;
-
-    width: 173px;
-    transform: rotate(90deg);
-
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+.media{
+    width: 173px;
+    transform: rotate(90deg);
+}
+.scollDown{
+    width: 136px;
 }
 .mainView{
     width: 950px;
@@ -168,14 +172,47 @@ h1{
     flex-grow: 0;
     padding: 32px 0px;
 }
+.viewPointer{
+    height: 240px;
+    width: 77px;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.2));
+    color: var(--bijela);
+    font-family:  var(--Gilory);
+    font-weight: bold;
+    letter-spacing: 1px;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.viewLeft{
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+}
+.viewRight, .viewFill{
+    width: 3px;
+    background-color: var(--bijela);
+}
+.viewFill{
+    height: 30%;
+    opacity: 1;
+}
+.viewRight{
+    height: 100%;
+    opacity: 0.5;
+}
 /*MAIN - GRID*/
 
 main{
-    position: absolute;
+    position: relative;
     width: 100%;
     padding: 0px 221px;
-    top: 75vw;
+    /*top: 75vw;*/
 
     display: grid;
     grid-template-columns: auto;
@@ -269,6 +306,7 @@ h2{
 
 /* FOOTER */
 footer{
+    position: relative;
     padding: 0px 221px;
     margin: 120px 0px;
 }
@@ -282,13 +320,12 @@ footer{
     align-items: center;
 }
 .ft-ct-left{
-    width: 303px;
     height: 100%;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: space-between;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .footer-paragraph, .copyright, .ft-right-links > li{
     font-family: var(--Gilory);
@@ -300,6 +337,7 @@ footer{
 }
 .footer-paragraph{
     margin-top: 24px;
+    width: 303px;
 }
 .copyright{
     opacity: 0.5;
@@ -320,6 +358,8 @@ footer{
     font-size: 24px;
     line-height: 32px;
     color: var(--zlatna);
+
+    padding-bottom: 16px;
 }
 .footer-nav{
     height: 100%;
@@ -332,4 +372,10 @@ footer{
 .ft-right-links{
     text-decoration: none;
     list-style: none;
+}
+.ft-right-links > li{
+    margin: 14px 0px;
+}
+.ft-right-links > li:last-child{
+    margin: 8px 0px 0px 0px;
 }
