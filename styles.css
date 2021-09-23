@@ -13,3 +13,12 @@
 body{
     background: var(--bg);
 }
+.imgs{
+    position: relative;
+}
+.G{
+    position: absolute;
+}
+.OG{
+    max-width: 100%;
+}
