@@ -174,9 +174,7 @@ h1{
 main{
     position: absolute;
     width: 100%;
-    outline: 1px solid white;
     padding: 0px 221px;
-    color: white;
     top: 75vw;
 
     display: grid;
@@ -185,23 +183,33 @@ main{
     grid-row-gap: 200px;
 }
 section{
-    outline: 1px solid red;
     width: 100%;
 
     display: flex;
     flex-direction: row;
 }
-section > div, .content-container{
-    width: 100%; 
+.content-container{
+    width: 100%;
+}
+.cc2{
+    margin-left: 114px;
+}
+.section-content{
+    width: 60%; 
 }
 .section-image{
+    width: 40%;
     text-align: right;
 }
 .section-content{
-    outline: 1px solid red;
     margin-top: 38px;
 }
+.container-content{
+    margin-top: -141px;
+    margin-left: 130px;
+}
 .bigNumber{
+    position: block;
     font-family: var(--Gilory);
     font-style: normal;
     font-weight: bold;
@@ -209,6 +217,7 @@ section > div, .content-container{
     line-height: 240px;
     color: var(--bijela);
     opacity: 0.1;
+    z-index: -1;
 }
 h2{
     font-family: var(--ChronicleDisplay);
@@ -230,7 +239,7 @@ h2{
     font-family: var(--Gilory);
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
     color: var(--bijela);
 
@@ -239,5 +248,36 @@ h2{
     align-self: center;
     flex-grow: 0;
 
+    width: 90%;
+    padding-bottom: 27px;
+}
+.btnReadMore{
+    font-family: var(--Gilory);
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--zlatna);
+    background: none;
+    border: none;
+
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.arr{
+    padding-left: 16px;
+}
+
+/* FOOTER */
+footer{
+    padding: 0px 221px;
+    margin: 120px 0px;
+}
+.footer-container{
     width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
