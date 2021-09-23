@@ -63,16 +63,16 @@ nav{
 .links{
     width: 283px;
 }
-ul{
+.links > ul{
     width: 283px;
 
     display: flex;
     justify-content: space-between;
 }
-li{
+.links > ul > li{
     display: inline;
 }
-li, .account{
+.links > ul > li, .account{
     font-family: var(--Gilory);
     font-style: normal;
     font-weight: 500;
@@ -274,10 +274,62 @@ footer{
 }
 .footer-container{
     width: 100%;
-    height: 100%;
+    height: 280px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+.ft-ct-left{
+    width: 303px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+.footer-paragraph, .copyright, .ft-right-links > li{
+    font-family: var(--Gilory);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--bijela);
+}
+.footer-paragraph{
+    margin-top: 24px;
+}
+.copyright{
+    opacity: 0.5;
+}
+.ft-ct-right{
+    height: 100%;
+    width: 566px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ft-right-header{
+    font-family: var(--Gilory);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--zlatna);
+}
+.footer-nav{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+.ft-right-links{
+    text-decoration: none;
+    list-style: none;
 }
