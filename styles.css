@@ -196,15 +196,14 @@ h1{
 }
 .viewRight, .viewFill{
     width: 3px;
-    background-color: var(--bijela);
+    background-color: rgba(255,255,255, 1);
 }
 .viewFill{
-    height: 30%;
-    opacity: 1;
+    height: 20%;
 }
 .viewRight{
     height: 100%;
-    opacity: 0.5;
+    background-color: rgba(255,255,255, 0.5);
 }
 /*MAIN - GRID*/
 
