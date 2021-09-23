@@ -175,7 +175,7 @@ main{
     position: absolute;
     width: 100%;
     outline: 1px solid white;
-    padding: 0px 150px;
+    padding: 0px 221px;
     color: white;
     top: 75vw;
 
@@ -191,12 +191,53 @@ section{
     display: flex;
     flex-direction: row;
 }
-section > div{
+section > div, .content-container{
     width: 100%; 
 }
 .section-image{
     text-align: right;
 }
 .section-content{
+    outline: 1px solid red;
     margin-top: 38px;
+}
+.bigNumber{
+    font-family: var(--Gilory);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 240px;
+    line-height: 240px;
+    color: var(--bijela);
+    opacity: 0.1;
+}
+h2{
+    font-family: var(--ChronicleDisplay);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: var(--bijela);
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 27px 0px;
+
+    width: 555px;
+}
+.content-paragraph{
+    font-family: var(--Gilory);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--bijela);
+
+    flex: none;
+    order: 2;
+    align-self: center;
+    flex-grow: 0;
+
+    width: 100%;
 }
