@@ -127,9 +127,6 @@ main{
 .mainView{
     width: 950px;
 }
-.header{
-    padding: 32px 0px;
-}
 .subDiv{
     font-family: var(--Gilory);
     font-style: normal;
