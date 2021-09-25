@@ -245,9 +245,9 @@ h1{
 /*MAIN - GRID*/
 
 main{
+    outline: 5px solid red;
     position: relative;
-    width: 100%;
-    padding: 0px 221px;
+    margin: 0px 229px;
     /*top: 75vw;*/
 
     display: grid;
@@ -256,30 +256,27 @@ main{
     grid-row-gap: 200px;
 }
 section{
-    width: 100%;
-
+    outline: 5px solid blue;
     display: flex;
     flex-direction: row;
-}
-.content-container{
-    width: 100%;
+    justify-content: space-between;
 }
 .cc2{
     margin-left: 114px;
 }
 .section-content{
-    width: 60%; 
+    margin-top: 38px;
+    /*outline: 7px solid green;*/
+    margin-right: 0px;
+    width: 652px;
 }
 .section-image{
-    width: 40%;
-    text-align: right;
-}
-.section-content{
-    margin-top: 38px;
+    outline: 7px solid purple;
 }
 .container-content{
     margin-top: -141px;
-    margin-left: 130px;
+    padding-left: 130px;
+    outline: 7px solid yellow;
 }
 .bigNumber{
     position: block;
@@ -321,7 +318,6 @@ h2{
     align-self: center;
     flex-grow: 0;
 
-    width: 90%;
     padding-bottom: 27px;
 }
 .btnReadMore{
