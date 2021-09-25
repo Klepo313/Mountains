@@ -10,6 +10,22 @@
     --ChronicleDisplay: 'Chronicle Display', sans-serif;
     --Gilory: 'Gilroy', sans-serif;
 }
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 body{
     background: var(--bg);
 }
@@ -30,9 +46,11 @@ body{
 }
 .MG{
     top: 24.166666vw;
+    animation: 1s ease-out 0s 1 appear;
 }
 .LG{
     top: 41.25vw;
+    animation: 1s ease-out 0s 1 appear;
 }
 .GRADG{
     top: 62.34375vw;
