@@ -114,7 +114,6 @@ nav{
     letter-spacing: 1px;
     line-height: 22px;
     color: var(--bijela);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     text-decoration: none;
     list-style: none;
@@ -123,7 +122,6 @@ nav{
     color: var(--bijela);
     font-size: 24px;
     font-family: var(--ChronicleDisplay);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .account{
     width: 98px;
