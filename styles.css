@@ -218,6 +218,7 @@ main{
     grid-template-rows: auto auto auto;
     grid-row-gap: 200px;
 }
+
 section{
     width: 100%;
 
