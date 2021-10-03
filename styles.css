@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth; 
 }
 :root{
     --bg: #0B1D26;
@@ -50,7 +51,7 @@ body{
 .G{
     width: 100%;
     position: absolute;
-    z-index: -10;
+    z-index: 0;
 }
 .OG{
     width: 100%;
@@ -66,9 +67,14 @@ body{
 .LG{
     top: 41.25vw;
     animation: 1.6s ease-out 0s 1 slideFromBottom;
+
+    top: 20.166666vw;
+}
+.LG{
+    top: 35.25vw;
 }
 .GRADG{
-    top: 62.34375vw;
+    top: 58.34375vw;
     position: block;
 }
 .mnPage{
@@ -121,7 +127,7 @@ nav{
 .logoMNTN{
     color: var(--bijela);
     font-size: 24px;
-    font-family: var(--ChronicleDisplay);
+    font-family: var(--ChronicleDisplay);    
 }
 .account{
     width: 98px;
@@ -167,6 +173,12 @@ nav{
 .scollDown{
     width: 136px;
 }
+.scollDown:hover{
+    transform: scale(1.05);
+    color: var(--zlatna);
+    cursor: pointer;
+    fill: var(--zlatna);
+}
 .mainView{
     width: 950px;
 }
@@ -206,7 +218,13 @@ h1{
     flex-grow: 0;
     padding: 32px 0px;
 }
+.kinPointer{
+    position: relative;
+    height: 240px;
+    width: 77px;
+}
 .viewPointer{
+    position: fixed;
     height: 240px;
     width: 77px;
     filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.2));
@@ -218,7 +236,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 80px;
+    right: 80px;
 }
 .viewLeft{
     height: 208px;
@@ -239,6 +257,7 @@ h1{
     height: 100%;
     background-color: rgba(255,255,255, 0.5);
 }
+
 /*MAIN - GRID*/
 
 main{
@@ -256,19 +275,30 @@ main{
     position: relative;
     margin: 0px 229px;
 
+    /*top: 75vw;11.927%
+
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
     grid-row-gap: 200px;
-} */
+} 
+*/
+
 section{
     /* outline: 5px solid blue; */
     margin-bottom: 200px;
     width: 100%;
-
+    /*max-width: max-content;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
+}
+.cc2{
+    margin-left: 114px;
+}
+.section-content{
+    width: 60%; 
 }
 .section-content{
     margin-top: 38px;
@@ -317,7 +347,7 @@ h2{
     font-family: var(--Gilory);
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 32px;
     color: var(--bijela);
 
@@ -347,8 +377,7 @@ h2{
 /* FOOTER */
 footer{
     position: relative;
-    padding: 0px 221px;
-    margin: 120px 0px;
+    margin: 120px 229px;
 }
 .footer-container{
     width: 100%;
