@@ -74,7 +74,7 @@ body{
     top: 35.25vw;
 }
 .GRADG{
-    top: 58.34375vw;
+    top: 61.34375vw;
     position: block;
 }
 .mnPage{
@@ -285,10 +285,10 @@ main{
 */
 
 section{
-    /* outline: 5px solid blue; */
+    outline: 5px solid blue; 
     margin-bottom: 200px;
     width: 100%;
-    /*max-width: max-content;*/
+    max-width: 1462px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
