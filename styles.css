@@ -180,7 +180,7 @@ nav{
     fill: var(--zlatna);
 }
 .mainView{
-    width: 950px;
+    max-width: 49.479vw;
 }
 .subDiv{
     font-family: var(--Gilory);
@@ -207,7 +207,7 @@ h1{
     font-family: var(--ChronicleDisplay);
     font-style: normal;
     font-weight: 600;
-    font-size: 88px;
+    font-size: 4.583vw;
     line-height: 100px;
     text-transform: capitalize;
 
@@ -232,7 +232,7 @@ h1{
     font-family:  var(--Gilory);
     font-weight: bold;
     letter-spacing: 1px;
-
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -263,7 +263,7 @@ h1{
 main{
     /* outline: 5px solid red; */
     position: relative;
-    margin: 0px 229px;
+    margin: 0px 11.927vw;
 
     display: flex;
     flex-direction: column;
@@ -301,16 +301,13 @@ section{
     width: 60%; 
 }
 .section-content{
-    margin-top: 38px;
-    /*outline: 7px solid green;*/
-    margin-right: 0px;
-    width: 652px;
+    margin-top: 2.979vw;
+    outline: 7px solid green;
+    width: 39.958vw;
 }
-/*
-.section-image{
-    /* outline: 7px solid purple; /*
-} 
-*/
+.imgSection{
+    max-width: 30.479vw;
+}
 .container-content{
     margin-top: -141px;
     padding-left: 130px;
@@ -321,8 +318,7 @@ section{
     font-family: var(--Gilory);
     font-style: normal;
     font-weight: bold;
-    font-size: 240px;
-    line-height: 240px;
+    font-size: 14.5vw;
     color: var(--bijela);
     opacity: 0.1;
     z-index: -1;
@@ -331,8 +327,7 @@ h2{
     font-family: var(--ChronicleDisplay);
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 77px;
+    font-size: 3.7vw;
 
     color: var(--bijela);
     flex: none;
@@ -341,7 +336,7 @@ h2{
     flex-grow: 0;
     margin: 27px 0px;
 
-    width: 555px;
+    width: 33.906vw;
 }
 .content-paragraph{
     font-family: var(--Gilory);
@@ -377,7 +372,7 @@ h2{
 /* FOOTER */
 footer{
     position: relative;
-    margin: 120px 229px;
+    margin: 120px 11.927vw;
 }
 .footer-container{
     width: 100%;
@@ -448,3 +443,11 @@ footer{
 .ft-right-links > li:last-child{
     margin: 8px 0px 0px 0px;
 }
+
+
+/********************************/
+/********************************/
+
+@media only screen and (max-width: 1418px) {
+    
+  }
