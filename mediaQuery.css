@@ -7,7 +7,7 @@
   }
 }
 
-@media only screen and (max-width: 1044px) {
+@media only screen and (max-width: 1000px) {
   .viewPointer, .media{
     font-size: 16px;
     margin-right: 50px;
@@ -27,16 +27,64 @@
   h1{
     padding: 2.1vw 0px;
   }
+  h2{
+    width: auto !important;
+    font-size: 45px;
+  }
+  .links>ul>li, .account, .subDiv, .scollDown{
+    font-size: 16px;
+  }
+  .scollDown {
+    width: 116px;
+  }
+  .arrDown{
+    height: 20px;
+  }
+  .bigNumber {
+    font-size: 145px;
+  }
+  .container-content {
+    margin-top: -9vw;
+  }
+
+  main{
+    margin: 0px;
+  }
+  section{
+    width: 506.02px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .sec2{
+    flex-direction: column;
+  }
+  .imgSection{
+    max-width: 100%;
+  }
+  .section-content {
+    margin-top: 40px;
+    width: 100%;
+  } 
+
 }
 
 /*768*/
-@media only screen and (max-width: 788px) {
+@media only screen and (max-width: 769px) {
 
   .links,
-  .account {
+  .account, .media, .viewPointer, .scollDown{
     display: none;
   }
-
+  .container{
+    justify-content: center;
+  }
+  .mainView {
+    max-width: 60%;
+  }
+  h1{
+    font-size: 40px;
+    line-height: 120%;
+  }
   .hamburger {
     display: flex;
   }
@@ -47,5 +95,9 @@
 
   nav {
     padding: 0px 60px;
+  }
+  .scollDown{
+    width: 100%;
+    justify-content: center;
   }
 }

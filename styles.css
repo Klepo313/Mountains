@@ -74,7 +74,7 @@ body {
 }
 
 .MG {
-    top: 24.166666vw;
+    top: 23.166666vw;
     animation: 1.6s ease-out 0s 1 slideFromBottom;
 }
 
@@ -90,14 +90,14 @@ body {
 }
 
 .GRADG {
-    top: 61.34375vw;
+    top: 60.64375vw;
     position: block;
 }
 
 .mnPage {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 140vh;
 }
 
 /*HEADER*/
@@ -306,7 +306,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 /* main{
@@ -348,12 +348,7 @@ section {
 }
 
 .section-content {
-    /*outline: 1px solid red;*/
-    width: 100%;
-}
-
-.section-content {
-    margin-top: 2.979vw;
+    margin-top: 40px;
     /*outline: 7px solid green;*/
     width: 39.958vw;
 }
