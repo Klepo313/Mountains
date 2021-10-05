@@ -135,6 +135,10 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
+.hamburger{
+    display: flex;
+    display: none;
+}
 
 /*MAIN*/
 
@@ -220,6 +224,7 @@ h1{
     padding: 32px 0px;
 }
 .kinPointer{
+    margin-right: 80px;
     position: relative;
     height: 240px;
     width: 77px;
@@ -464,4 +469,19 @@ footer{
     .content-paragraph{
         font-size: 16px;
     }
- }
+}
+/*768*/
+@media only screen and (max-width: 788px) {
+    .links, .account{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+    .hamburgerIcon{
+        width: 20px;
+    }
+    nav{
+        padding: 0px 60px;
+    }
+}
