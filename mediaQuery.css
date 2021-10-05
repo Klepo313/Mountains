@@ -1,0 +1,51 @@
+/********************************/
+/********************************/
+
+@media only screen and (max-width: 1418px) {
+  .content-paragraph {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1044px) {
+  .viewPointer, .media{
+    font-size: 16px;
+    margin-right: 50px;
+  }
+  .media{
+    margin-left: -30px;
+  }
+  .content{
+    margin-top: 1.2vw
+  }
+  nav{
+    padding: 0px 50px;
+  }
+  header {
+    height: 100px;
+  }
+  h1{
+    padding: 2.1vw 0px;
+  }
+}
+
+/*768*/
+@media only screen and (max-width: 788px) {
+
+  .links,
+  .account {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .hamburgerIcon {
+    width: 20px;
+  }
+
+  nav {
+    padding: 0px 60px;
+  }
+}
