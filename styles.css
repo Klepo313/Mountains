@@ -131,6 +131,7 @@ nav {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .links>ul>li {
@@ -172,11 +173,13 @@ nav {
 /*MAIN*/
 
 .content {
+    /*outline: 1px solid red;*/
     margin-top: 3.979vw;
     width: 100%;
 }
 
 .container {
+    /*outline: 1px solid red;*/
     animation: 1.6s ease-out 0s 1 slideFromBottom;
     width: 100%;
     height: 100%;
@@ -213,6 +216,7 @@ nav {
 }
 
 .mainView {
+    outline: 1px solid blue;
     max-width: 49.479vw;
 }
 

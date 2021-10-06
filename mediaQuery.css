@@ -26,6 +26,7 @@
   }
   h1{
     padding: 2.1vw 0px;
+    font-size: 45px;
   }
   h2{
     width: auto !important;
@@ -43,10 +44,19 @@
   .bigNumber {
     font-size: 145px;
   }
+  .mainView {
+    outline: 1px solid blue;
+    max-width: 500px;
+  }
   .container-content {
     margin-top: -9vw;
   }
-
+  .btnReadMore{
+    font-size: 16px;
+  }
+  .arr{
+    font-size: 10px;
+  }
   main{
     margin: 0px;
   }
@@ -71,33 +81,65 @@
 /*768*/
 @media only screen and (max-width: 769px) {
 
-  .links,
-  .account, .media, .viewPointer, .scollDown{
+  /*.links,
+  .account,*/ .viewPointer, .media{
     display: none;
   }
   .container{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
   }
   .mainView {
     max-width: 60%;
   }
   h1{
-    font-size: 40px;
+    font-size: 5.208vw;
     line-height: 120%;
   }
+  h2{
+    font-size: 40px;
+  }
+  /*
   .hamburger {
     display: flex;
   }
-
   .hamburgerIcon {
     width: 20px;
+  }*/
+  .links>ul {
+    width: 243px;
   }
-
+  .links>ul>li, .account{
+    font-size: 14px;
+  }
+  .media{
+    margin-left: -5px;
+    width: 233px;
+    font-size: 14px;
+  }
+  .content {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .MG{
+    top: 29.166666vw;
+  }
+  .LG{
+    top: 41.25vw;
+  }
+  .GRADG {
+    top: 66.64375vw;
+    position: block;
+  }
   nav {
     padding: 0px 60px;
   }
   .scollDown{
-    width: 100%;
-    justify-content: center;
-  }
+    font-size: 15px;
+  }/*
+  .kinPointer{
+    display: block;
+  }*/
 }
