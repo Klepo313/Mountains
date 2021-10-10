@@ -49,7 +49,6 @@
 }
 
 body {
-    outline: 1px solid red;
     background: var(--bg);
 }
 

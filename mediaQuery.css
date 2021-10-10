@@ -214,14 +214,14 @@
     width: 23px;
   }
   .G{
-    width: 200%;
+    width: 100%;
     overflow: hidden;
   }
   .LG{
     top: 61.25vw;
   }
   .GRADG {
-    top: 67.64375vw;
+    top: 73.64375vw;
     position: block;
   }
 }
