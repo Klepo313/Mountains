@@ -6,20 +6,32 @@
     font-size: 16px;
   }
 }
+@media only screen and (max-width: 1025px){
+  .MG{
+    top: 30.166666vw;
+  }
+  .LG{
+    top: 51.25vw;
+  }
+  .GRADG{
+    top: 67.64375vw;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
   .viewPointer, .media{
     font-size: 16px;
-    margin-right: 50px;
+    /*margin-right: 50px;*/
   }
   .media{
-    margin-left: -30px;
+    /*margin-left: -30px;*/
   }
   .content{
     margin-top: 1.2vw
   }
   nav{
-    padding: 0px 50px;
+    padding: 0px;
+    margin: 0px;
   }
   header {
     height: 100px;
@@ -29,7 +41,7 @@
     font-size: 45px;
   }
   h2{
-    width: auto !important;
+    width: auto;
     font-size: 45px;
   }
   .links>ul>li, .account, .subDiv, .scollDown{
@@ -45,7 +57,6 @@
     font-size: 145px;
   }
   .mainView {
-    outline: 1px solid blue;
     max-width: 500px;
   }
   .container-content {
@@ -101,14 +112,8 @@
   h2{
     font-size: 40px;
   }
-  /*
-  .hamburger {
-    display: flex;
-  }
-  .hamburgerIcon {
-    width: 20px;
-  }*/
   .links>ul {
+    outline: 1px solid yellow;
     width: 243px;
   }
   .links>ul>li, .account{
@@ -133,6 +138,9 @@
     top: 66.64375vw;
     position: block;
   }
+  .container-content {
+    margin-top: -12vw;
+  }
   nav {
     padding: 0px 60px;
   }
@@ -142,4 +150,78 @@
   .kinPointer{
     display: block;
   }*/
+}
+
+@media only screen and (max-width: 660px){
+  body {
+    overflow-x: hidden;
+  }
+  /*  */
+  nav {
+    padding: 0px 15px 0px 60px;
+    outline: 1px solid blue;
+  }
+  .account{
+    display: none;
+  }
+  .kinPointer{
+    display: none;
+  }
+  .links>ul>li{
+    display: flex;
+    font-size: 15px;
+  }
+  .container{
+    outline: 1px solid blue;
+    justify-content: flex-start;
+    padding-left: 65px;
+    width: 100%;
+  }
+  .mainView {
+    outline: 1px solid blue;
+    max-width: 80%;
+  }
+  .G{
+    width: 100%;
+    overflow: hidden;
+  }
+  footer{
+    outline: 1px solid violet;
+  }
+}
+
+@media only screen and (max-width: 580px){
+  section{
+    width: 400px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  h1{
+    font-size: 43px;
+    line-height: 120%;
+  }
+  .container-content {
+    margin-top: -90px;
+  }
+  .links{
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    margin-right: 50px;
+  }
+  .hamburgerIcon {
+    width: 23px;
+  }
+  .G{
+    width: 200%;
+    overflow: hidden;
+  }
+  .LG{
+    top: 61.25vw;
+  }
+  .GRADG {
+    top: 67.64375vw;
+    position: block;
+  }
 }
