@@ -180,7 +180,6 @@
   /*  */
   nav {
     padding: 0px 15px 0px 60px;
-    outline: 1px solid blue;
   }
   .account{
     display: none;
@@ -193,13 +192,11 @@
     font-size: 15px;
   }
   .container{
-    outline: 1px solid blue;
     justify-content: flex-start;
     padding-left: 65px;
     width: 100%;
   }
   .mainView {
-    outline: 1px solid blue;
     max-width: 80%;
   }
   .G{
