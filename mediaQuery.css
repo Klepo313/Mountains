@@ -27,7 +27,7 @@
     margin-top: 1.2vw
   }
   nav{
-    padding: 0px;
+    padding: 0px 80px;
     margin: 0px;
   }
   header {
@@ -116,7 +116,6 @@
     font-size: 40px;
   }
   .links>ul {
-    outline: 1px solid yellow;
     width: 243px;
   }
   .links>ul>li, .account{
@@ -155,7 +154,6 @@
   }*/
 
   .footer-container{
-    outline: 1px solid violet;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -175,7 +173,7 @@
     overflow-x: hidden;
   }
   .mnPage{
-    height: 60vh;
+    height: 90vh;
   }
   /*  */
   nav {
@@ -203,8 +201,15 @@
     width: 100%;
     overflow: hidden;
   }
-  footer{
-    outline: 1px solid violet;
+  .MG{
+    top: 39.166666vw;
+  }
+  .LG{
+    top: 61.25vw;
+  }
+  .GRADG {
+    top: 76.64375vw;
+    position: block;
   }
 }
 
@@ -213,9 +218,10 @@
     width: 400px;
     flex-direction: column-reverse;
     align-items: flex-start;
+    margin-bottom: 120px;
   }
   h1{
-    font-size: 43px;
+    font-size: 40px;
     line-height: 120%;
   }
   .container-content {
@@ -236,18 +242,21 @@
     overflow: hidden;
   }
   .LG{
-    top: 61.25vw;
+    top: 70.25vw;
+  }
+  .MG{
+    top: 43.166666vw;
   }
   .GRADG {
-    top: 73.64375vw;
-    position: block;
+    top: 96.64375vw;
   }
 }
 
 @media only screen and (max-width: 500px){
-  
+  h1{
+    font-size: 30px;
+  }
   .footer-container{
-    outline: 1px solid violet;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -275,8 +284,55 @@
 @media only screen and (max-width: 440px) {
   section{
     width: 100%;
+    padding: 25px;
   } 
   .section-content{
     padding-right: 20px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  .G{
+    width: 160vh;
+    overflow-x: hidden;
+  }
+  .LG{
+    top: 90.25vw;
+  }
+  .MG{
+    top: 63.166666vw;
+  }
+  .GRADG {
+    top: 126.64375vw;
+  }
+  .arrDown{
+    height: 16px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .hikingGuide{
+    font-size: 14px;
+  }
+  .container{
+    margin: 0px;
+    padding-left: 30px;
+  }
+  nav{
+    padding: 0px 10px 0px 30px;
+  }
+  .hamburger{
+    margin-right: 20px;
+  }
+  h1{
+    padding: 10px 0px;
+  }
+  .LG{
+    top: 130.25vw;
+  }
+  .MG{
+    top: 82.166666vw;
+  }
+  .GRADG {
+    top: 126.64375vw;
   }
 }
