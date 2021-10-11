@@ -23,9 +23,6 @@
     font-size: 16px;
     /*margin-right: 50px;*/
   }
-  .media{
-    /*margin-left: -30px;*/
-  }
   .content{
     margin-top: 1.2vw
   }
@@ -89,6 +86,12 @@
 
 }
 
+@media only screen and (max-width: 850px){
+  .mnPage{
+    height: 80vh;
+  }
+}
+
 /*768*/
 @media only screen and (max-width: 769px) {
 
@@ -150,11 +153,29 @@
   .kinPointer{
     display: block;
   }*/
+
+  .footer-container{
+    outline: 1px solid violet;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    height: 500px;
+  }
+  .ft-ct-left{
+    justify-content: flex-start;
+  }
+  .ft-ct-right{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 660px){
   body {
     overflow-x: hidden;
+  }
+  .mnPage{
+    height: 60vh;
   }
   /*  */
   nav {
@@ -223,5 +244,42 @@
   .GRADG {
     top: 73.64375vw;
     position: block;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  
+  .footer-container{
+    outline: 1px solid violet;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    height: 700px;
+  }
+  .ft-ct-right{
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    align-items: space-between;
+  }
+  .fnav2{
+    margin-top: 40px;
+  }
+  .footer-paragraph{
+    width: 100%;
+    font-size: 17px;
+  }
+  .copyright{
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  section{
+    width: 100%;
+  } 
+  .section-content{
+    padding-right: 20px;
   }
 }
