@@ -82,14 +82,14 @@ body {
 .MG {
     top: 23.166666vw;
     animation: 1.6s ease-out 0s 1 slideFromBottom;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 
 .LG {
     top: 41.25vw;
     animation: 1.6s ease-out 0s 1 slideFromBottom;
-    z-index: 2;
-    top: 20.166666vw;
+    z-index: 20;
+    /*top: 20.166666vw;*/
 }
 
 .LG {
@@ -99,7 +99,7 @@ body {
 .GRADG {
     top: 60.64375vw;
     position: block;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 
 .mnPage {
@@ -256,11 +256,6 @@ li:hover, li:focus {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .media,

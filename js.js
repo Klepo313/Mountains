@@ -19,14 +19,29 @@ closeBtn.addEventListener("click", function(){
 let hg = document.getElementsByClassName("HG")[0];
 let mg = document.getElementsByClassName("MG")[0];
 let lg = document.getElementsByClassName("LG")[0];
+let gradg = document.getElementsByClassName("GRADG")[0];
 let container = document.getElementsByClassName("container")[0];
+let g = document.getElementsByClassName("G");
 
+window.addEventListener("scroll", function() {
+  const distance = window.scrollY;
+  hg.style.transform = `translateY(${distance * -1}px)`;
+  mg.style.transform = `translateY(${distance * -0.7}px)`;
+  lg.style.transform = `translateY(${distance * -1}px)`;
+  gradg.style.transform = `translateY(${distance * -0.2}px)`;
+  container.style.transform = `translateY(${distance * 0.1}px)`;
+});
+
+
+/*
 window.addEventListener("scroll", function(){
   var value = window.scrollY;
-/*
-  hg.style.top = value * 0.5 + "px";
+
   mg.style.top = -value * 0.15 + "px";
-  lg.style.top = value * 0.5 + "px";*/
-  hg.style.top = value * 0.5 + "px";
+  lg.style.top = value * 0.5 + "px";
+  hg.style.top = -value * 0.5 + "px";
   container.style.top = value * 1 + "px";
 })
+*/
+
+
