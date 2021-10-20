@@ -23,14 +23,30 @@ let gradg = document.getElementsByClassName("GRADG")[0];
 let container = document.getElementsByClassName("container")[0];
 let g = document.getElementsByClassName("G");
 
-window.addEventListener("scroll", function() {
+function parallax(){
   const distance = window.scrollY;
-  hg.style.transform = `translateY(${distance * -1}px)`;
-  mg.style.transform = `translateY(${distance * -0.7}px)`;
-  lg.style.transform = `translateY(${distance * -1}px)`;
-  gradg.style.transform = `translateY(${distance * -0.2}px)`;
+  hg.style.transform = `translateY(${distance * -0.5}px)`;
+  mg.style.transform = `translateY(${distance * -1}px)`;
+  lg.style.transform = `translateY(${distance * -0.6}px)`;
+  gradg.style.transform = `translateY(${distance * -0.6}px)`;
   container.style.transform = `translateY(${distance * 0.1}px)`;
-});
+}
+function parallaxCancel(){
+  const distance = window.scrollY;
+  hg.style.transform = `translateY(${distance * 0}px)`;
+  mg.style.transform = `translateY(${distance * 0}px)`;
+  lg.style.transform = `translateY(${distance * 0}px)`;
+  gradg.style.transform = `translateY(${distance * 0}px)`;
+  container.style.transform = `translateY(${distance * 0}px)`;
+}
+
+  if (window.innerWidth < 768) {
+    window.addEventListener("scroll", parallaxCancel)
+  } else if (window.innerWidth > 768){
+    window.addEventListener("scroll", parallax)
+  }
+
+
 
 
 /*
