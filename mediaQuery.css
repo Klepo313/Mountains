@@ -5,6 +5,9 @@
   .content-paragraph {
     font-size: 16px;
   }
+  .G{
+    overflow-x: hidden;
+  }
 }
 @media only screen and (max-width: 1342px) {
   .MG{
@@ -109,8 +112,9 @@
   .container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-left: 63px;
   }
   .mainView {
     max-width: 60%;
@@ -138,13 +142,13 @@
     width: 100%;
   }
   .MG{
-    top: 35.166666vw;
+    top: 40.166666vw;
   }
   .LG{
-    top: 51.25vw;
+    top: 56.25vw;
   }
   .GRADG {
-    top: 72.64375vw;
+    top: 75.64375vw;
     position: block;
   }
   .container-content {
@@ -175,9 +179,27 @@
   }
 }
 
+@media only screen and (max-width: 700px){
+  .G{
+    width: 120%;
+  }
+  .MG{
+    top: 45.166666vw;
+  }
+  .LG{
+    top: 70.25vw;
+  }
+  .GRADG {
+    top: 85.64375vw;
+  }
+}
+
 @media only screen and (max-width: 660px){
   body {
     overflow-x: hidden;
+  }
+  h1{
+    font-size: 42px;
   }
   /*  */
   nav {
@@ -195,25 +217,22 @@
   }
   .container{
     justify-content: flex-start;
-    padding-left: 65px;
     width: 100%;
   }
   .mainView {
     max-width: 80%;
   }
   .G{
-    width: 100%;
     overflow: hidden;
   }
   .MG{
-    top: 39.166666vw;
+    top: 49.166666vw;
   }
   .LG{
-    top: 61.25vw;
+    top: 70.25vw;
   }
   .GRADG {
-    top: 76.64375vw;
-    position: block;
+    top: 90.64375vw;
   }
 }
 
@@ -242,12 +261,7 @@
     width: 23px;
   }
   .G{
-    width: 100%;
-    overflow: hidden;
-  }
-  .HG{
-    width: auto;
-    height: 50vh;
+    width: 130%;
   }
   .MG{
     top: 53.166666vw;
@@ -256,13 +270,28 @@
     top: 80.25vw;
   }
   .GRADG {
-    top: 96.64375vw;
+    top: 99.64375vw;
+  } 
+}
+
+@media only screen and (max-width: 520px){
+  .G{
+    width: 150%;
   }
+  .MG{
+    top: 63.166666vw;
+  }
+  .LG{
+    top: 90.25vw;
+  }
+  .GRADG {
+    top: 110.64375vw;
+  } 
 }
 
 @media only screen and (max-width: 500px){
   h1{
-    font-size: 30px;
+    font-size: 45px;
   }
   .footer-container{
     flex-direction: column;
@@ -287,6 +316,33 @@
   .copyright{
     font-size: 17px;
   }
+  .MG{
+    top: 73.166666vw;
+  }
+  .LG{
+    top: 100.25vw;
+  }
+  .GRADG {
+    top: 116.64375vw;
+  }
+  .G{
+    width: 180%;
+  } 
+}
+
+@media only screen and (max-width: 460px){
+  .G{
+    width: 190%;
+  }
+  .MG{
+    top: 78.166666vw;
+  }
+  .LG{
+    top: 110.25vw;
+  }
+  .GRADG {
+    top: 136.64375vw;
+  }
 }
 
 @media only screen and (max-width: 440px) {
@@ -298,26 +354,64 @@
     padding-right: 20px;
   }
   h2{
-    font-size: 40px;
+    font-size: 35px;
   }
   .G{
-    width: 160vh;
+    width: 180%;
     overflow-x: hidden;
   }
-  .LG{
-    top: 90.25vw;
+  .HG{
+    width: 220%;
   }
   .MG{
-    top: 63.166666vw;
+    top: 90.166666vw;
+  }
+  .LG{
+    top: 125.25vw;
   }
   .GRADG {
-    top: 126.64375vw;
-  }
+    top: 150.64375vw;
+  } 
   .arrDown{
     height: 16px;
   }
+  .hikingGuide{
+    font-size: 16px;
+  }
 }
+
+@media only screen and (max-width: 420px){
+  h1{
+    font-size: 40px;
+  }
+  .hikingGuide{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  h1{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .G{
+    width: 240%;
+  }
+  .LG{
+    top: 150.25vw;
+  }
+  .MG{
+    top: 100.166666vw;
+  }
+  .GRADG {
+    top: 178.64375vw;
+  } 
+}
+
 @media only screen and (max-width: 340px) {
+  /*
   .hikingGuide{
     font-size: 14px;
   }
@@ -342,5 +436,14 @@
   }
   .GRADG {
     top: 126.64375vw;
+  } 
+
+  */
+
+  h1{
+    font-size: 30px;
   }
-}
+  .hikingGuide{
+    font-size: 12px;
+  }
+} 

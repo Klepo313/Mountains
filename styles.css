@@ -60,6 +60,8 @@
 
 body {
     background: var(--bg);
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .imgs {
@@ -74,6 +76,7 @@ body {
     width: 100%;
     position: absolute;
     z-index: 0;
+    overflow: hidden;
 }
 
 .OG {
@@ -84,13 +87,12 @@ body {
 .MG {
     top: 23.166666vw;
     animation: 1.6s ease-out 0s 1 slideFromBottom;
-    z-index: 2;
 }
 
 .LG {
     top: 40.25vw;
     animation: 1.6s ease-out 0s 1 slideFromBottom;
-    z-index: 5;
+    z-index: 2;
 }
 
 

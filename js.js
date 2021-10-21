@@ -27,8 +27,8 @@ function parallax(){
   const distance = window.scrollY;
   hg.style.transform = `translateY(${distance * -0.5}px)`;
   mg.style.transform = `translateY(${distance * -1}px)`;
-  lg.style.transform = `translateY(${distance * -0.6}px)`;
-  gradg.style.transform = `translateY(${distance * -0.6}px)`;
+  lg.style.transform = `translateY(${distance * -0.7}px)`;
+  gradg.style.transform = `translateY(${distance * -0.7}px)`;
   container.style.transform = `translateY(${distance * 0.1}px)`;
 }
 function parallaxCancel(){
