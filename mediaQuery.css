@@ -18,6 +18,10 @@
   }
 }
 @media only screen and (max-width: 1025px){
+  h1{
+    font-size: 55px;
+    line-height: 70px;
+  }
   .MG{
     top: 35.166666vw;
   }
@@ -34,9 +38,6 @@
     font-size: 16px;
     /*margin-right: 50px;*/
   }
-  .content{
-    margin-top: 1.2vw
-  }
   nav{
     padding: 0px 80px;
     margin: 0px;
@@ -46,7 +47,6 @@
   }
   h1{
     padding: 2.1vw 0px;
-    font-size: 45px;
   }
   h2{
     width: auto;
@@ -95,14 +95,23 @@
     width: 100%;
   }
 }
-/*
-@media only screen and (max-width: 850px){
-  .mnPage{
-    height: 80vh;
-  }
-}*/
 
-/*768*/
+@media only screen and (max-width: 940px){
+  .HG, .OG{
+    width: 150%;
+  }
+  .MG{
+    top: 55.166666vw;
+  }
+  .LG{
+    top: 75.25vw;
+  }
+  .GRADG{
+    top: 93.64375vw;
+  }
+}
+
+
 @media only screen and (max-width: 769px) {
 
   /*.links,
@@ -120,8 +129,7 @@
     max-width: 60%;
   }
   h1{
-    font-size: 5.208vw;
-    line-height: 120%;
+    font-size: 60px;
   }
   h2{
     font-size: 40px;
@@ -137,19 +145,14 @@
     width: 233px;
     font-size: 14px;
   }
-  .content {
-    margin-top: 10px;
-    width: 100%;
-  }
   .MG{
-    top: 40.166666vw;
+    top: 60.166666vw;
   }
   .LG{
-    top: 56.25vw;
+    top: 80.25vw;
   }
   .GRADG {
-    top: 75.64375vw;
-    position: block;
+    top: 105.64375vw;
   }
   .container-content {
     margin-top: -12vw;
@@ -180,17 +183,14 @@
 }
 
 @media only screen and (max-width: 700px){
-  .G{
-    width: 120%;
-  }
   .MG{
-    top: 45.166666vw;
+    top: 70.166666vw;
   }
   .LG{
-    top: 70.25vw;
+    top: 90.25vw;
   }
   .GRADG {
-    top: 85.64375vw;
+    top: 115.64375vw;
   }
 }
 
@@ -199,7 +199,7 @@
     overflow-x: hidden;
   }
   h1{
-    font-size: 42px;
+    line-height: 80px;
   }
   /*  */
   nav {
@@ -213,7 +213,7 @@
   }
   .links>ul>li{
     display: flex;
-    font-size: 15px;
+    font-size: 16px;
   }
   .container{
     justify-content: flex-start;
@@ -226,13 +226,31 @@
     overflow: hidden;
   }
   .MG{
-    top: 49.166666vw;
+    top: 69.166666vw;
   }
   .LG{
-    top: 70.25vw;
+    top: 90.25vw;
   }
   .GRADG {
-    top: 90.64375vw;
+    top: 110.64375vw;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  h1{
+    font-size: 65px;
+  }
+  .HG, .OG{
+    width: 200%;
+  }
+  .MG{
+    top: 89.166666vw;
+  }
+  .LG{
+    top: 110.25vw;
+  }
+  .GRADG {
+    top: 130.64375vw;
   }
 }
 
@@ -242,10 +260,6 @@
     flex-direction: column-reverse;
     align-items: flex-start;
     margin-bottom: 120px;
-  }
-  h1{
-    font-size: 40px;
-    line-height: 120%;
   }
   .container-content {
     margin-top: -90px;
@@ -263,35 +277,30 @@
   .G{
     width: 130%;
   }
-  .MG{
-    top: 53.166666vw;
+  .HG, .OG{
+    width: 250%;
   }
-  .LG{
-    top: 80.25vw;
-  }
-  .GRADG {
-    top: 99.64375vw;
-  } 
 }
 
 @media only screen and (max-width: 520px){
-  .G{
-    width: 150%;
+  h1{
+    font-size: 60px;
   }
   .MG{
-    top: 63.166666vw;
+    top: 100.166666vw;
   }
   .LG{
-    top: 90.25vw;
+    top: 130.25vw;
   }
   .GRADG {
-    top: 110.64375vw;
-  } 
+    top: 150.64375vw;
+  }
 }
 
 @media only screen and (max-width: 500px){
   h1{
-    font-size: 45px;
+    font-size: 55px;
+    line-height: 68px;
   }
   .footer-container{
     flex-direction: column;
@@ -316,40 +325,35 @@
   .copyright{
     font-size: 17px;
   }
-  .MG{
-    top: 73.166666vw;
-  }
-  .LG{
-    top: 100.25vw;
-  }
-  .GRADG {
-    top: 116.64375vw;
-  }
   .G{
     width: 180%;
   } 
-}
-
-@media only screen and (max-width: 460px){
-  .G{
-    width: 190%;
+  .HG{
+    width: 290%;
   }
   .MG{
-    top: 78.166666vw;
+    top: 93.166666vw;
   }
   .LG{
-    top: 110.25vw;
+    top: 130.25vw;
   }
   .GRADG {
-    top: 136.64375vw;
+    top: 156.64375vw;
   }
 }
+
+
 
 @media only screen and (max-width: 440px) {
   section{
     width: 100%;
-    padding: 25px;
   } 
+  nav, section, .container{
+    padding: 25px;
+  }
+  nav{
+    padding-right: 0px;
+  }
   .section-content{
     padding-right: 20px;
   }
@@ -357,20 +361,19 @@
     font-size: 35px;
   }
   .G{
-    width: 180%;
     overflow-x: hidden;
   }
-  .HG{
-    width: 220%;
+  .HG, .OG{
+    width: 250%;
   }
   .MG{
-    top: 90.166666vw;
+    top: 110.166666vw;
   }
   .LG{
-    top: 125.25vw;
+    top: 145.25vw;
   }
   .GRADG {
-    top: 150.64375vw;
+    top: 170.64375vw;
   } 
   .arrDown{
     height: 16px;
@@ -381,36 +384,45 @@
 }
 
 @media only screen and (max-width: 420px){
-  h1{
-    font-size: 40px;
-  }
-  .hikingGuide{
-    font-size: 14px;
-  }
-}
-
-@media only screen and (max-width: 400px){
-  h1{
-    font-size: 35px;
-  }
-}
-
-@media only screen and (max-width: 380px){
-  .G{
-    width: 240%;
-  }
-  .LG{
-    top: 150.25vw;
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
   }
   .MG{
-    top: 100.166666vw;
+    top: 110.166666vw;
+  }
+  .LG{
+    top: 145.25vw;
   }
   .GRADG {
-    top: 178.64375vw;
+    top: 170.64375vw;
   } 
 }
 
-@media only screen and (max-width: 340px) {
+
+@media only screen and (max-width: 380px){
+  h1 {
+    font-size: 45px;
+    line-height: 62px;
+  }
+  .G{
+    width: 200%;
+  }
+  .HG, .OG{
+    width: 280%;
+  }
+  .LG{
+    top: 170.25vw;
+  }
+  .MG{
+    top: 120.166666vw;
+  }
+  .GRADG {
+    top: 198.64375vw;
+  } 
+}
+
+@media only screen and (max-width: 350px) {
   /*
   .hikingGuide{
     font-size: 14px;
@@ -441,7 +453,19 @@
   */
 
   h1{
-    font-size: 30px;
+    font-size: 43px;
+  }
+  .HG, .OG{
+    width: 350%;
+  }
+  .LG{
+    top: 200.25vw;
+  }
+  .MG{
+    top: 150.166666vw;
+  }
+  .GRADG {
+    top: 227.64375vw;
   }
   .hikingGuide{
     font-size: 12px;

@@ -31,33 +31,25 @@ function parallax(){
   gradg.style.transform = `translateY(${distance * -0.8}px)`;
   container.style.transform = `translateY(${distance * 0.3}px)`;
 }
-function parallaxCancel(){
-  const distance = window.scrollY;
-  hg.style.transform = `translateY(${distance * 0}px)`;
-  mg.style.transform = `translateY(${distance * 0}px)`;
-  lg.style.transform = `translateY(${distance * 0}px)`;
-  gradg.style.transform = `translateY(${distance * 0}px)`;
-  container.style.transform = `translateY(${distance * 0}px)`;
-}
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if($(this).scrollTop() > 100) {
+      $(".container").css({"opacity" : "0.5"})
+    }
+    else {
+      $(".container").css({"opacity" : "1"})
+    }
+  })
+})
+window.addEventListener("scroll", parallax)
 
+/*
   if (window.innerWidth < 768) {
     window.addEventListener("scroll", parallaxCancel)
   } else if (window.innerWidth > 768){
     window.addEventListener("scroll", parallax)
   }
 
-
-
-
-/*
-window.addEventListener("scroll", function(){
-  var value = window.scrollY;
-
-  mg.style.top = -value * 0.15 + "px";
-  lg.style.top = value * 0.5 + "px";
-  hg.style.top = -value * 0.5 + "px";
-  container.style.top = value * 1 + "px";
-})
 */
 
 

@@ -57,7 +57,9 @@
         opacity: 1;
     }
 }
-
+html{
+    overflow-x: hidden;
+}
 body {
     background: var(--bg);
     width: 100%;
@@ -258,6 +260,7 @@ li:hover, li:focus {
     align-items: center;
 
     z-index: 1;
+    transition: .5s;
 }
 
 .media,
