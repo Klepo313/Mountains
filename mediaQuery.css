@@ -129,6 +129,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 63px;
+    max-height: 353px;
   }
   .mainView {
     max-width: 60%;
@@ -431,6 +432,9 @@
   }
   .GRADG {
     top: 198.64375vw;
+  }
+  .content {
+    margin-top: 0vw;
   }
 }
 

@@ -38,9 +38,11 @@ window.addEventListener("scroll", parallax);
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
-      $(".container").css({ opacity: "0.5" });
+      $(".container").css({
+        opacity: "0.5",
+      });
     } else {
-      $(".container").css({ opacity: "1" });
+      $(".container").css({ opacity: "1", width: "100%" });
     }
   });
 });
