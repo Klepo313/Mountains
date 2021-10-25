@@ -30,7 +30,10 @@ function parallax(){
   lg.style.transform = `translateY(${distance * -0.8}px)`;
   gradg.style.transform = `translateY(${distance * -0.8}px)`;
   container.style.transform = `translateY(${distance * 0.3}px)`;
+  //container je H1 i sa strane ono Start, 01, 02 i follow us
 }
+window.addEventListener("scroll", parallax)
+
 $(document).ready(function() {
   $(window).scroll(function() {
     if($(this).scrollTop() > 100) {
@@ -41,7 +44,6 @@ $(document).ready(function() {
     }
   })
 })
-window.addEventListener("scroll", parallax)
 
 /*
   if (window.innerWidth < 768) {
