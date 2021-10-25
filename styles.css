@@ -12,6 +12,15 @@
     --ChronicleDisplay: 'Chronicle Display', sans-serif;
     --Gilory: 'Gilroy', sans-serif;
 }
+::-moz-selection { 
+    color: var(--zlatna);
+    background: none;
+}
+  
+::selection {
+    color: var(--zlatna);
+    background: none;
+}
 
 @keyframes slideFromTop {
     0% {
@@ -358,7 +367,8 @@ h1 {
 .viewLeft > span:hover{
     opacity: 0.85;
     cursor: pointer;
-    transform: scale(1.1)
+    transform: scale(1.1);
+    color: var(--zlatna);
 }
 .viewRight,
 .viewFill {
