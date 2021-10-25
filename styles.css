@@ -296,7 +296,16 @@ li:hover, li:focus {
 .scollDown {
     width: 136px;
 }
-
+.scollDown:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.pegla:hover{
+    color: var(--zlatna);
+}
+.pegla:hover + .arrDown > path{
+    fill: var(--zlatna);
+}
 .mainView {
     max-width: 49.479vw;
 }

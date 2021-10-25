@@ -45,13 +45,8 @@ $(document).ready(function() {
   })
 })
 
-/*
-  if (window.innerWidth < 768) {
-    window.addEventListener("scroll", parallaxCancel)
-  } else if (window.innerWidth > 768){
-    window.addEventListener("scroll", parallax)
-  }
-
-*/
+function mainOnLinkClick() {
+  document.getElementsByTagName('main')[0].scrollIntoView();
+}
 
 
