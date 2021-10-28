@@ -342,12 +342,11 @@ li:focus {
 
 h1 {
 
-    font-family: var(--ChronicleDisplay);
-    font-style: normal;
-    font-weight: 200;
-    font-size: 4.583vw;
-    line-height: 5.208vw;
-    text-transform: capitalize;
+  font-family: var(--ChronicleDisplay);
+  font-style: normal;
+  font-size: 4.583vw;
+  line-height: 5.208vw;
+  text-transform: capitalize;
   color: var(--bijela);
   /* Inside Auto Layout */
   flex: none;
