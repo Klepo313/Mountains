@@ -5,60 +5,64 @@
   .content-paragraph {
     font-size: 16px;
   }
-  .G{
+  .G {
     overflow-x: hidden;
   }
 }
 @media only screen and (max-width: 1342px) {
-  .MG{
+  .MG {
     top: 30.166666vw;
   }
-  .LG{
+  .LG {
     top: 45.25vw;
   }
 }
-@media only screen and (max-width: 1025px){
-  h1{
+@media only screen and (max-width: 1025px) {
+  h1 {
     font-size: 55px;
     line-height: 70px;
   }
-  .MG{
+  .MG {
     top: 35.166666vw;
   }
-  .LG{
+  .LG {
     top: 55.25vw;
   }
-  .GRADG{
+  .GRADG {
     top: 73.64375vw;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .viewPointer, .media{
+  .viewPointer,
+  .media {
     font-size: 16px;
     /*margin-right: 50px;*/
   }
-  nav{
+  nav {
     padding: 0px 80px;
     margin: 0px;
   }
   header {
     height: 100px;
   }
-  h1{
+  h1 {
     padding: 2.1vw 0px;
   }
-  h2{
+  h2 {
     width: auto;
     font-size: 45px;
   }
-  .links>ul>li, .account, .subDiv, .scollDown{
+  .links > ul > li,
+  .account,
+  .subDiv,
+  .scollDown {
     font-size: 16px;
   }
   .scollDown {
     width: 116px;
   }
-  .arrDown{
+  .arrDown {
     height: 20px;
   }
   .bigNumber {
@@ -70,24 +74,24 @@
   .container-content {
     margin-top: -9vw;
   }
-  .btnReadMore{
+  .btnReadMore {
     font-size: 16px;
   }
-  .arr{
+  .arr {
     font-size: 10px;
   }
-  main{
+  main {
     margin: 0px;
   }
-  section{
+  section {
     width: 506.02px;
     flex-direction: column-reverse;
     align-items: flex-start;
   }
-  .sec2{
+  .sec2 {
     flex-direction: column;
   }
-  .imgSection{
+  .imgSection {
     max-width: 100%;
   }
   .section-content {
@@ -96,59 +100,62 @@
   }
 }
 
-@media only screen and (max-width: 940px){
-  .HG, .OG{
+@media only screen and (max-width: 940px) {
+  .HG,
+  .OG {
     width: 150%;
   }
-  .MG{
+  .MG {
     top: 55.166666vw;
   }
-  .LG{
+  .LG {
     top: 75.25vw;
   }
-  .GRADG{
+  .GRADG {
     top: 93.64375vw;
   }
 }
 
-
 @media only screen and (max-width: 769px) {
-
   /*.links,
-  .account,*/ .viewPointer, .media{
+  .account,*/
+  .viewPointer,
+  .media {
     display: none;
   }
-  .container{
+  .container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     padding-left: 63px;
+    max-height: 353px;
   }
   .mainView {
     max-width: 60%;
   }
-  h1{
+  h1 {
     font-size: 60px;
   }
-  h2{
+  h2 {
     font-size: 40px;
   }
-  .links>ul {
+  .links > ul {
     width: 243px;
   }
-  .links>ul>li, .account{
+  .links > ul > li,
+  .account {
     font-size: 14px;
   }
-  .media{
+  .media {
     margin-left: -5px;
     width: 233px;
     font-size: 14px;
   }
-  .MG{
+  .MG {
     top: 60.166666vw;
   }
-  .LG{
+  .LG {
     top: 80.25vw;
   }
   .GRADG {
@@ -160,33 +167,33 @@
   nav {
     padding: 0px 60px;
   }
-  .scollDown{
+  .scollDown {
     font-size: 15px;
-  }/*
+  } /*
   .kinPointer{
     display: block;
   }*/
 
-  .footer-container{
+  .footer-container {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    
+
     height: 500px;
   }
-  .ft-ct-left{
+  .ft-ct-left {
     justify-content: flex-start;
   }
-  .ft-ct-right{
+  .ft-ct-right {
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 700px){
-  .MG{
+@media only screen and (max-width: 700px) {
+  .MG {
     top: 70.166666vw;
   }
-  .LG{
+  .LG {
     top: 90.25vw;
   }
   .GRADG {
@@ -194,41 +201,41 @@
   }
 }
 
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 660px) {
   body {
     overflow-x: hidden;
   }
-  h1{
+  h1 {
     line-height: 80px;
   }
   /*  */
   nav {
     padding: 0px 15px 0px 60px;
   }
-  .account{
+  .account {
     display: none;
   }
-  .kinPointer{
+  .kinPointer {
     display: none;
   }
-  .links>ul>li{
+  .links > ul > li {
     display: flex;
     font-size: 16px;
   }
-  .container{
+  .container {
     justify-content: flex-start;
     width: 100%;
   }
   .mainView {
     max-width: 80%;
   }
-  .G{
+  .G {
     overflow: hidden;
   }
-  .MG{
+  .MG {
     top: 69.166666vw;
   }
-  .LG{
+  .LG {
     top: 90.25vw;
   }
   .GRADG {
@@ -236,17 +243,18 @@
   }
 }
 
-@media only screen and (max-width: 600px){
-  h1{
+@media only screen and (max-width: 600px) {
+  h1 {
     font-size: 65px;
   }
-  .HG, .OG{
+  .HG,
+  .OG {
     width: 200%;
   }
-  .MG{
+  .MG {
     top: 89.166666vw;
   }
-  .LG{
+  .LG {
     top: 110.25vw;
   }
   .GRADG {
@@ -254,8 +262,8 @@
   }
 }
 
-@media only screen and (max-width: 580px){
-  section{
+@media only screen and (max-width: 580px) {
+  section {
     width: 400px;
     flex-direction: column-reverse;
     align-items: flex-start;
@@ -264,7 +272,7 @@
   .container-content {
     margin-top: -90px;
   }
-  .links{
+  .links {
     display: none;
   }
   .hamburger {
@@ -274,22 +282,23 @@
   .hamburgerIcon {
     width: 23px;
   }
-  .G{
+  .G {
     width: 130%;
   }
-  .HG, .OG{
+  .HG,
+  .OG {
     width: 250%;
   }
 }
 
-@media only screen and (max-width: 520px){
-  h1{
+@media only screen and (max-width: 520px) {
+  h1 {
     font-size: 60px;
   }
-  .MG{
+  .MG {
     top: 100.166666vw;
   }
-  .LG{
+  .LG {
     top: 130.25vw;
   }
   .GRADG {
@@ -297,44 +306,44 @@
   }
 }
 
-@media only screen and (max-width: 500px){
-  h1{
+@media only screen and (max-width: 500px) {
+  h1 {
     font-size: 55px;
     line-height: 68px;
   }
-  .footer-container{
+  .footer-container {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    
+
     height: 700px;
   }
-  .ft-ct-right{
+  .ft-ct-right {
     width: 100%;
     height: 600px;
     flex-direction: column;
     align-items: space-between;
   }
-  .fnav2{
+  .fnav2 {
     margin-top: 40px;
   }
-  .footer-paragraph{
+  .footer-paragraph {
     width: 100%;
     font-size: 17px;
   }
-  .copyright{
+  .copyright {
     font-size: 17px;
   }
-  .G{
+  .G {
     width: 180%;
-  } 
-  .HG{
+  }
+  .HG {
     width: 290%;
   }
-  .MG{
+  .MG {
     top: 93.166666vw;
   }
-  .LG{
+  .LG {
     top: 130.25vw;
   }
   .GRADG {
@@ -342,84 +351,91 @@
   }
 }
 
-
-
 @media only screen and (max-width: 440px) {
-  section{
+  section {
     width: 100%;
-  } 
-  nav, section, .container{
+  }
+  nav,
+  section,
+  .container {
     padding: 25px;
   }
-  nav{
-    padding-right: 0px;
+  nav {
+    padding-right: 25px;
   }
-  .section-content{
+  .hamburger {
+    margin-right: 0px;
+  }
+  .section-content {
     padding-right: 20px;
   }
-  h2{
+  h2 {
     font-size: 35px;
   }
-  .G{
+  .G {
     overflow-x: hidden;
   }
-  .HG, .OG{
+  .HG,
+  .OG {
     width: 250%;
   }
-  .MG{
+  .MG {
     top: 110.166666vw;
   }
-  .LG{
+  .LG {
     top: 145.25vw;
   }
   .GRADG {
     top: 170.64375vw;
-  } 
-  .arrDown{
+  }
+  .arrDown {
     height: 16px;
   }
-  .hikingGuide{
+  .hikingGuide {
     font-size: 16px;
   }
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 420px) {
   h1 {
     font-size: 50px;
     line-height: 60px;
   }
-  .MG{
+  .MG {
     top: 110.166666vw;
   }
-  .LG{
+  .LG {
     top: 145.25vw;
   }
   .GRADG {
     top: 170.64375vw;
-  } 
+  }
 }
 
-
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 384px) {
   h1 {
     font-size: 45px;
     line-height: 62px;
   }
-  .G{
+  .G {
     width: 200%;
   }
-  .HG, .OG{
+  .HG,
+  .OG {
     width: 280%;
   }
-  .LG{
+  .LG {
     top: 170.25vw;
   }
-  .MG{
+  .MG {
     top: 120.166666vw;
   }
   .GRADG {
     top: 198.64375vw;
-  } 
+  }
+  .content {
+    margin-top: 0vw;
+  }
 }
 
 @media only screen and (max-width: 350px) {
@@ -452,22 +468,23 @@
 
   */
 
-  h1{
+  h1 {
     font-size: 43px;
   }
-  .HG, .OG{
+  .HG,
+  .OG {
     width: 350%;
   }
-  .LG{
+  .LG {
     top: 200.25vw;
   }
-  .MG{
+  .MG {
     top: 150.166666vw;
   }
   .GRADG {
     top: 227.64375vw;
   }
-  .hikingGuide{
+  .hikingGuide {
     font-size: 12px;
   }
-} 
+}
